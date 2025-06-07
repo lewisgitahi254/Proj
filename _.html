@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Jesko Furniture </title>
+  <link rel="stylesheet" href=".css" />
+</head>
+<body>
+
+  <header>
+    <h1>Jesko Furniture </h1>
+    <p>Your comfort, our priority</p>
+  </header>
+
+  <nav>
+    <a href="#home">Home</a>
+    <a href="#products">Products</a>
+    <a href="#about">About Us</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <div class="hero" id="home">
+    <div>Discover Elegant Furniture</div>
+  </div>
+
+  <section class="section" id="products">
+    <h2>Featured Products</h2>
+    <div class="filter-buttons">
+      <button onclick="filterProducts('all')">All</button>
+      <button onclick="filterProducts('sofa')">Sofas</button>
+      <button onclick="filterProducts('table')">Tables</button>
+      <button onclick="filterProducts('chair')">Chairs</button>
+    </div>
+    <div class="products">
+      <div class="product sofa">
+        <img src="IMAGES//images2.jpeg" alt="Sofa Set">
+        <h3>Luxury Sofa Set</h3>
+        <p>Comfort meets style in our premium sofa collection.</p>
+      </div>
+      <div class="product table">
+        <img src="IMAGES//images1.jpeg"alt="Dining Table">
+        <h3>Modern Dining Table</h3>
+        <p>Elegant designs for memorable dining experiences.</p>
+      </div>
+      <div class="product chair">
+        <img src="IMAGES//images3.jpeg" alt="Office Chair">
+        <h3>Ergonomic Office Chair</h3>
+        <p>Designed for comfort during long working hours.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="about">
+    <h2>About Us</h2>
+    <p>
+      At Jesko Furniture , we believe in creating spaces that reflect your personality and style. Our curated collection combines functionality with aesthetics, ensuring that every piece adds value to your home or office.
+    </p>
+  </section>
+
+  <section class="section" id="contact">
+    <h2>Contact Us</h2>
+    <p>Email: info@jeskofurniture.com</p>
+    <p>Phone: +254 700 123456</p>
+    <p>Address: 123 Nairobi Street, Nairobi, Kenya</p>
+  </section>
+
+  <button id="backToTop" onclick="scrollToTop()">↑ Top</button>
+
+  <footer>
+    &copy; 2025 Jesko Furniture. All rights reserved.
+  </footer>
+
+  <script src=".js"></script>
+</body>
+</html>
+
